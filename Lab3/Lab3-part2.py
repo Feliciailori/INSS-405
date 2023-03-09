@@ -4,18 +4,23 @@ score3=input('Enter Score for DANL 470')
 
 print(type('score'))
 
-Sum=int(score1)+int(score2)+int(score3)
+Sum=float(score1)+float(score2)+float(score3)
 print('Sum', Sum)
-Average=(int(score1)+int(score2)+int(score3))/3
+Average=(float(score1)+float(score2)+float(score3))/3
 print('Average', Average)
 
-if(int(Average)>90):
+#Grade>90=A
+#Grade70-89=B
+#Grade60-69=C
+#Grade<59=F
+
+if(float(Average)>90):
     print('A')
-if(int(Average)<=89 and int(Average)>=70):
+if(float(Average)<=89 and float(Average)>=70):
     print('B')
-if(int(Average)<=69 and int(Average)>=60):
+if(float(Average)<=69 and float(Average)>=60):
     print('C')
-if(int(Average)<59):
+if(float(Average)<=59):
     print('F')
 
 
