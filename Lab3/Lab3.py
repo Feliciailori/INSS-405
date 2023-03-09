@@ -8,6 +8,11 @@
 # else:
 #     print('Extreme Cold')
 
+#Temp(>=50):Hot
+#Temp(30-50):Warm
+#Temp(0-30):Cold
+#(<0):Extreme Cold
+
 temperature=input('Enter Temperature:')
 if(float(temperature)>=50):
     print('Hot')
