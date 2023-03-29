@@ -27,10 +27,58 @@
 # for i in range(100):
 #     print(i)
 
-for i in range(100):
-    if(i%2==0):
-        print(i)
+# for i in range(100):
+#     if(i%2==0):
+#         print(i)
+#
+# for x in range(100):
+#     if(x%2!=0):
+#         print(x)
 
-for x in range(100):
-    if(x%2!=0):
-        print(x)
+# for x in range(1,10):
+#     print(x)
+
+# for x in range(5,10):
+#     print(x)
+
+# for x in range(5,10,2):
+#     print(x)
+#5=where the range starts from, 10=range,2=incremental value from range start (5)
+
+#for random numbering within a range. Next line can also be left alone as random without an alias rand
+# import random as rand
+# print(rand.randint(1, 100))
+# #a random number within a range of 1-100
+#
+# import random as rand
+# for x in range(10):
+#     print(rand.randint(1,100))
+#10 random numbers from 1 to 100
+
+# import random as rand
+# print(rand.randint(500,600))
+#a random number from 500 within a range of 600
+
+# import random as rand
+# for x in range(30):
+#     print(rand.randint(1,500))
+
+# import random as rand
+# sum=0.00
+# for x in range(30):
+#     print('x=',x)
+#     print(rand.randint(1,500))
+#     sum=sum+rand.randint(1,500)
+#     print('sum=',sum)
+# print('final sum=',sum)
+
+import random as rand
+sum=0.00
+for x in range(30):
+    print('x=',x)
+    print(rand.randint(1,500))
+    sum=sum+rand.randint(1,500)
+    print('sum=',sum)
+print('final sum=',sum)
+average=sum/30
+print('Average=',average)
