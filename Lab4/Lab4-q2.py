@@ -1,0 +1,10 @@
+for i in range (7):
+    temperature=input('Enter Temperature:')
+    if(float(temperature)>=50):
+        print("Hot")
+    elif(float(temperature)>=30 and float(temperature)<50):
+        print("Warm")
+    elif(float(temperature)>=0 and float(temperature)<30):
+        print("Cold")
+    elif(float(temperature)<0):
+        print("Extreme Cold")
