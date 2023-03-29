@@ -1,4 +1,4 @@
-for i in range(7):
+for i in range (7):
     temperature=input('Enter Temperature:')
     if(float(temperature)>=50):
         print("Hot")

@@ -3,7 +3,7 @@ for i in range (9):
     score= input('Enter Score')
     sum=sum+int(score)
 
-print("final sum=", sum)
+print("Final Sum=", sum)
 average=int(sum)/9
 print("Average=", average)
 

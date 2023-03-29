@@ -3,7 +3,7 @@ sum=0.00
 for i in range(1000):
     print(rand.randint(1, 200))
     sum=sum+rand.randint(1,200)
-print("final sum", sum)
+print("Final Sum", sum)
 average=sum/1000
 print("Average", average)
 
