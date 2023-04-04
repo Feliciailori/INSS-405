@@ -1,5 +1,5 @@
 sum=0
-for x in range(14):
+for x in range(14):  #any value between 10 and 20
     score=input('Enter Score=')
     if(int(score)>=90):
         print('A')
@@ -9,7 +9,7 @@ for x in range(14):
         print('C')
     elif(int(score)>=60 and int(score)<=74):
         print('D')
-    elif(int(score)<=59):
+    else:
         print('F')
     sum=sum+int(score)
 print('Final Sum=',sum)
@@ -17,6 +17,5 @@ average=int(sum)/14
 print('Average=',average)
 
 #final scores for 14 courses between 2021 and 2022. Calculate total sum and average
-
-# else:
-#     print('F')
+# elif(int(score)<=59):
+#         print('F')
