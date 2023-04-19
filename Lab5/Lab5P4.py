@@ -7,7 +7,7 @@ def hottemperature(num):
         return 'Cold'
     elif (int(num)>=31 and int(num)<=40):
         return 'Warm'
-    elif (int(num)>=50):
+    elif (int(num)>40):
         return 'Hot'
 
 
