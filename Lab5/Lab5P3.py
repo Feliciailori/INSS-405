@@ -2,11 +2,11 @@ def request():
     num1=input('Enter number1=')
     num2=input('Enter number2=')
     num3=input('Enter number3=')
-    print(Addition(num1,num2,num3))
-    print(Average(num1,num2,num3))
-    Maximum(num1,num2,num3)
-    Minimum(num1,num2,num3)
-    print(Product(num1,num2,num3))
+    print('Sum=',Addition(num1,num2,num3))
+    print('Average=', Average(num1,num2,num3))
+    print('Maximum=', Maximum(num1,num2,num3))
+    print('Minimum=', Minimum(num1,num2,num3))
+    print('Product=', Product(num1,num2,num3))
 
 def Addition(num1,num2,num3):
     sum=int(num1)+int(num2)+int(num3)
@@ -17,10 +17,10 @@ def Average(num1,num2,num3):
     return ave
 
 def Maximum(num1,num2,num3):
-    print(max(num1,num2,num3))
+    return max(num1,num2,num3)
 
 def Minimum(num1,num2,num3):
-    print(min(num1,num2,num3))
+    return min(num1,num2,num3)
 
 def Product(num1,num2,num3):
     multiply=int(num1)*int(num2)*int(num3)
