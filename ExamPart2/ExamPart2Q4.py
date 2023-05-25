@@ -7,5 +7,4 @@ def reversename(name):
     revname= ''.join(reversed(name))
     return revname
 
-
 request()

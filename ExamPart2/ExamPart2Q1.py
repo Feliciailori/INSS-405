@@ -22,6 +22,5 @@ def calculatemedian(numbers):
     median = sorted(numbers)[middle]
     return median
 
-
 request()
 
